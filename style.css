@@ -332,6 +332,7 @@ h3.my-profession {
 .about .about-content {
   flex: 0 0 100%;
   max-width: 100%;
+  margin-bottom: 70px;
 }
 .about .about-content .about-text {
   flex: 0 0 100%;
@@ -441,6 +442,7 @@ h3.my-profession {
 .about .about-content .timeline {
   background-color: var(--bg-black-100);
   padding: 30px 15px;
+  margin-bottom: 50px;
   border: 1px solid var(--bg-black-50);
   border-radius: 10px;
   width: 100%;
@@ -500,7 +502,7 @@ h3.my-profession {
 }
 .service .service-item {
   margin-top: 50px;
-  margin-bottom: 30px;
+  margin-bottom: 70px;
   flex: 0 0 50%;
   max-width: 50%;
   margin-left: -5px;
@@ -568,7 +570,7 @@ h3.my-profession {
 .portfolio .portfolio-item {
   flex: 0 0 33.33%;
   max-width: 33.33%;
-  margin-bottom: 30px;
+  margin-bottom: 70px;
 }
 .portfolio .portfolio-item-inner {
   border: 6px solid var(--bg-black-100);
@@ -626,7 +628,8 @@ h3.my-profession {
 }
 .blog-item .details .title {
   line-height: 1.2;
-  color: var(--text-black-700);
+  color: var(--text-black-900) !important;
+  font-weight: 500;
 }
 .blog-item .details .title a:hover {
   color: var(--skin-color);
