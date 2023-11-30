@@ -64,3 +64,18 @@ function asideSectionTogglerBtn() {
     allSection[i].classList.toggle("open");
   }
 }
+function downloadFile() {
+  var fileUrl = "https://drive.google.com/file/d/1xjgJVTbWbzTfi54oWd7vphM2hxib7VDb/view?usp=sharing";
+
+  // Create a temporary link element
+  var link = document.createElement("a");
+  link.href = fileUrl;
+  link.download = "Resume"; // You can set the desired file name here
+  document.body.appendChild(link);
+
+  // Trigger the click event to start the download
+  link.click();
+
+  // Remove the link from the DOM once the download is initiated
+  document.body.removeChild(link);
+}
