@@ -65,7 +65,8 @@ function asideSectionTogglerBtn() {
   }
 }
 function downloadFile() {
-  var fileUrl = "https://drive.google.com/file/d/1xjgJVTbWbzTfi54oWd7vphM2hxib7VDb/view?usp=sharing";
+  var fileUrl =
+    "https://drive.google.com/file/d/1xjgJVTbWbzTfi54oWd7vphM2hxib7VDb/view?usp=sharing";
 
   // Create a temporary link element
   var link = document.createElement("a");
@@ -78,4 +79,28 @@ function downloadFile() {
 
   // Remove the link from the DOM once the download is initiated
   document.body.removeChild(link);
+}
+
+function projectOne() {
+  window.location.href = "https://josephoduro.github.io/cloudhosting/";
+}
+
+function projectTwo() {
+  window.location.href = "https://josephoduro.github.io/streamingService/";
+}
+
+function projectThree() {
+  window.location.href = "https://josephoduro.github.io/huluClone/";
+}
+
+function projectFour() {
+  window.location.href = "https://josephoduro.github.io/buzz/";
+}
+
+function projectFive() {
+  window.location.href = "https://josephoduro.github.io/textToSpeech/";
+}
+
+function projectSix() {
+  window.location.href = "https://josephoduro.github.io/game/";
 }
